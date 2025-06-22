@@ -1,3 +1,4 @@
+# Commit 2: Add Amharic text cleaner
 import pandas as pd
 import re
 import os
