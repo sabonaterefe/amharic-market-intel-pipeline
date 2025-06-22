@@ -1,3 +1,4 @@
+# Commit 1: Initial version of async Telegram scraper
 from telethon import TelegramClient
 from dotenv import load_dotenv
 import pandas as pd
@@ -85,4 +86,5 @@ async def main():
         print("\n⚠️ No data scraped. Make sure you're joined to the listed channels.")
 
 with client:
+    
     client.loop.run_until_complete(main())
